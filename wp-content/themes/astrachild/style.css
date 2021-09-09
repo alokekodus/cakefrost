@@ -1,0 +1,300 @@
+/*
+	Theme Name: Ekodus Cake (Astra Theme)
+	Theme URI: http://localhost/ekodus/cake/
+	Description: A Astra child theme
+	Author: @Alok
+	Author URI: http://localhost/ekodus/cake/
+	Template: astra
+	Version: 1.0.0
+*/
+
+@import url("../astra/style.css");
+
+body{
+	/*background: #f2f2f2;*/
+	/* background: url('https://cakefrost.dev-ekodus.com/wp-content/uploads/2021/07/site.jpg'); */
+}
+#content {
+	margin: 0 35px;
+}
+
+#masthead .ast-container,
+.ast-header-breadcrumb .ast-container {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 35px;
+	margin-right: 35px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#read-more {
+	color: #fff;
+	border-bottom: 2px solid;
+}
+
+#metaslider_container_62 {
+	margin: 0 -35px;
+}
+
+
+.footer-adv-overlay {
+	/*background-color: #073b4c;*/
+	background-color: #e85d04;
+	padding-bottom: 70px;
+	padding-left: 20px;
+}
+
+.ast-small-footer {
+	border: none;
+}
+
+.ast-footer-overlay{
+    background-color: #dc2f02;
+}
+
+.wc-block-grid {
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+	padding: 20px;
+	margin: 30px 0;
+	background: #fff;
+}
+
+/* Home page single product */
+.wc-block-grid .wc-block-grid__products .wc-block-grid__product {
+    /* box-shadow: 0 1px 2px rgb(0 0 0 / 20%); */
+	padding: 5px;
+}
+
+/* Enquiry form */
+#wpforms-272 {
+	/* box-shadow: 0 2px 3px rgb(0 0 0 / 20%); */
+	margin-top: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+	padding: 0 0 10px 0;
+	background: url('https://cakefrost.dev-ekodus.com/wp-content/uploads/2021/07/form1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#wpforms-272{
+    display:none; /* Hide the enquiry form */
+}
+
+#wpforms-form-272 {
+	width: 40%;
+}
+
+#wpforms-form-272 input{
+	height: 40px;
+	border: none;
+}
+
+#wpforms-form-272 textarea{
+	border: none;
+}
+
+#wpforms-form-272 button{
+	background-color: #000;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+}
+
+#wpforms-form-272 .wpforms-title {
+	font-weight: 700;
+}
+
+/* Contact us form */
+#wpforms-198 {
+	border-radius: 8px;
+	background: #fff;
+	padding: 40px;
+	 width: 70%; 
+}
+
+#wpforms-198 button{
+    background: #e85d04;
+    color: #fff;
+}
+
+/* Contact us page MAP */
+.elementor-99 .elementor-element.elementor-element-4bc961c, .elementor-99 .elementor-element.elementor-element-4bc961c > .elementor-background-overlay {
+    background: #fff;
+}
+
+.elementor-99 .elementor-element.elementor-element-f47608b > .elementor-element-populated {
+    background: #fff;
+}
+
+.elementor-99 .elementor-element.elementor-element-bb82974{
+    background: #e85d04;
+}
+
+/* Featured block */
+.wc-block-featured-product, .wc-block-featured-product .wc-block-featured-product__wrapper {
+	min-height: 300px !important;
+}
+
+/* Check availability */
+#my_custom_checkout_field2 #pincode_field_idp #pincode_field_id.input-text{
+	width: 100px !important;
+}
+
+/* FAQ Accordion */
+.elementor-widget-wrap{
+	margin-bottom: 30px;
+}
+
+/* Product image */
+/*.wc-block-grid .wc-block-grid__products .wc-block-grid__product a img, .woocommerce ul.products li.product a img, .woocommerce-page ul.products li.product a img {*/
+/*	border-radius: 5px;*/
+/*}*/
+
+/* Product title */
+.wc-block-grid .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title{
+	color: rgb(102, 102, 102);
+	font-size: 1rem;
+}
+
+.wc-block-grid .wc-block-grid__products .wc-block-grid__product .price {
+	font-size: 18px;
+    color: rgb(34, 34, 34);
+    font-weight: 500;
+
+}
+
+/* On hover product */
+.wc-block-grid__product-image {
+	overflow: hidden;
+}
+
+.wc-block-grid .wc-block-grid__products .wc-block-grid__product {
+	border-radius: 5px;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.wc-block-grid .wc-block-grid__products .wc-block-grid__product:hover{
+	box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+}
+/* ------------------------------ */
+
+#page{
+	overflow: hidden;
+}
+
+/* Sale div */
+.wc-block-grid .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-onsale, .woocommerce ul.products li.product .onsale{
+	font-size: 1rem;
+	background: red;
+	border: none;
+}
+
+/* Add to cart button */
+.wc-block-grid .wc-block-grid__products .wc-block-grid__product .wp-block-button__link {
+	font-size: 1rem;
+}
+
+/* View all button*/
+.wp-block-buttons>.wp-block-button:last-child{
+    position: absolute;
+    right: 35px;
+}
+
+/* product_category_slider */
+.product_category_slider{
+    margin-top: 20px;
+}
+
+/* Shop Page Title*/
+.ast-single-post .entry-title, .page-title{
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #dc2f02;
+}
+
+/* Shop page filter*/
+.woocommerce .woocommerce-ordering select{
+    background: #e85d04;
+    color: #fff;
+}
+
+/* Shop page filter color */
+.woocommerce-MyAccount-navigation-link.is-active a{
+    background: #e85d04;
+    color: #fff;
+}
+
+/* Shop page padding */
+.ast-container, .ast-container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Hide delivery date field on Single product page */
+.delivery-info-wrap{
+    display: none;
+}
+
+/* Select delivery date */
+.delivery_date_label_container img{
+    top: 68% !important;
+}
+
+/* Product buy button */
+.wc-block-grid .wc-block-grid__products .wc-block-grid__product .wp-block-button__link{
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    **************************
+    *Responsive media queries*
+    **************************
+*/
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+
+	#content {
+		margin: 0 15px;
+	}
+
+	#wpforms-272,  #wpforms-198 {
+		padding: 20px;
+	}
+
+	#wpforms-form-272, #wpforms-198 {
+		width: 100%;
+	}
+	
+	/* View all button*/
+    .wp-block-buttons>.wp-block-button:last-child{
+        margin-top:10px;
+        position: static;
+    }
+    
+    /* Shop page default sorting */
+    .woocommerce .woocommerce-ordering select {
+        margin-left: 10px;
+    }
+  }

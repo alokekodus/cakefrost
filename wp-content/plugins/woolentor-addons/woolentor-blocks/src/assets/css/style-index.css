@@ -1,0 +1,17 @@
+.wlb-marker-wrapper .wlb_image_pointer .wlb_pointer_box h4{
+    margin: 0 0 7px 0;
+}
+.editor-styles-wrapper .ht-feature-content h4,.editor-styles-wrapper .ht-feature-content p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.woolentor-text-align-left{
+    text-align: left !important;
+}
+.woolentor-text-align-right{
+    text-align: right !important;
+}
+.woolentor-text-align-center{
+    text-align: center !important;
+}

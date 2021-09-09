@@ -1,0 +1,15 @@
+.elementor-element-wrapper .elementor-element .icon .eicon-slider-vertical:after{
+    content : "WP";
+    speak: none;
+    font-size: 14px;    
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    color: rgb(205, 207, 210);    
+    font-variant: normal;
+}

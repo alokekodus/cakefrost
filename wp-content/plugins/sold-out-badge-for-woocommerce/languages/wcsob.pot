@@ -1,0 +1,62 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sold Out Badge for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-29 11:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Charlie Etienne <ce@web-nancy.fr>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.4; wp-5.5.1"
+
+#. Name of the plugin
+#: woocommerce-sold-out-badge.php:60
+msgid "Sold Out Badge for WooCommerce"
+msgstr ""
+
+#: woocommerce-sold-out-badge.php:65
+msgid "Label"
+msgstr ""
+
+#: woocommerce-sold-out-badge.php:66
+msgid "Sold out!"
+msgstr ""
+
+#: woocommerce-sold-out-badge.php:68
+msgid "Background Color"
+msgstr ""
+
+#: woocommerce-sold-out-badge.php:71
+msgid "Text Color"
+msgstr ""
+
+#: woocommerce-sold-out-badge.php:74
+msgid "Font size"
+msgstr ""
+
+#: woocommerce-sold-out-badge.php:77
+msgid "Hide Sale badge?"
+msgstr ""
+
+#: woocommerce-sold-out-badge.php:78
+msgid "Do you want to hide the \"Sale!\" badge when a product is sold out?"
+msgstr ""
+
+#. Description of the plugin
+msgid "Display a \"Sold Out!\" badge on out of stock products"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://web-nancy.fr"
+msgstr ""
+
+#. Author of the plugin
+msgid "Charlie Etienne"
+msgstr ""
